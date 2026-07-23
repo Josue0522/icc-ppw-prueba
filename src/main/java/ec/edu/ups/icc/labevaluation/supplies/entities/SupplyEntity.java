@@ -2,11 +2,11 @@ package ec.edu.ups.icc.labevaluation.supplies.entities;
 
 import java.math.BigDecimal;
 import ec.edu.ups.icc.labevaluation.core.entities.BaseEntity;
-              import jakarta.persistence.Column;
-              import jakarta.persistence.Entity;
-              import jakarta.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
-              @Entity
+@Entity
               @Table(name = "supplies")
               public class SupplyEntity extends BaseEntity {
 
